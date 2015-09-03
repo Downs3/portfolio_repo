@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Demo</title>
+	<style>
+		* {
+		}
+		header h1 {
+			text-align: center;
+			position: fixed;
+			width: 100%;
+			top:0;
+			color: #F1FAEE;
+			background-color: #457B9D;
+			height: 40px;
+			margin-top: 0;
+			padding: 10px 0;
+		}
+		section {
+			background-color: #F8F3D3;
+			padding: 2px 15px 10px;
+			border-radius: 12px;
+			margin-top: 80px;
+			border: 2px #6F1D1B dashed;
+		}
+		input[type=submit] {
+			font-weight: bold;
+			font-size: 18pt;
+			font-style: italic;
+			padding: 10px 20px;
+			background-color: #E4EBED;
+			border: 3px solid #457B9D;
+			border-radius: 3px;
+			color: #254B6D;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Contact</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Contact Info</h2>
+			<form name="textInputs" method="GET" action="inputsReceived.html">
+				Name:
+				<input type="text" placeholder="Last name, First name" name="justText" /><br/>
+				<br/>
+				Telephone:
+				<input type="tel" name="telephoneText" /><br/>
+				Email:
+				<input type="email" name="emailText" /><br/>
+				<br/>
+				Date:
+				<input type="date" name="dateOnly"/><br/>
+				Message (textarea):
+				<textarea name="textareaDemo" placeholder="250 characters max." maxlength="250"></textarea><br/>
+				<br/>
+				<input type="submit"/>
+			</form>
+		</section>
+	</main>
+</body>
+</html>
