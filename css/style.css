@@ -1,0 +1,38 @@
+body{
+
+}
+
+h1 {
+    color: #254B6D;
+}
+
+h2 {
+    color: #254B6D;
+}
+nav div a {
+    padding: 18px;
+    background-color: #31A555;
+    box-shadow: 5px 5px grey;
+
+
+}
+nav div {
+    margin: 90px;
+
+
+}
+#mainContent{
+    float: left;
+    width: 45%;
+}
+#picture{
+    float: left;
+    width: 55%;
+    background-image: url("../images/background2.jpg");
+    background-repeat:no-repeat;
+    min-height: 587px;
+
+}
+.mainInfoFont {
+    font-weight: bold;
+}
