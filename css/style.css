@@ -4,11 +4,16 @@ body{
 
 h1 {
     color: #254B6D;
+    font-family: 'Cinzel', serif;
 }
 
 h2 {
     color: #254B6D;
 }
+p {
+font-family: 'Lobster', cursive;
+}
+
 nav div a {
     padding: 18px;
     background-color: #31A555;
@@ -35,4 +40,7 @@ nav div {
 }
 .mainInfoFont {
     font-weight: bold;
+}
+p.inline {
+    display: inline;
 }
