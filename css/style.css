@@ -41,6 +41,14 @@ nav div {
 .mainInfoFont {
     font-weight: bold;
 }
+
+a:hover {
+    background-color: #6F1D1B;
+}
 p.inline {
     display: inline;
+}
+img {
+    width: 50px;
+    margin-top: 170px;
 }
