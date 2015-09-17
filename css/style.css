@@ -11,9 +11,8 @@ h2 {
     color: #254B6D;
 }
 p {
-font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive;
 }
-
 nav div a {
     padding: 18px;
     background-color: #31A555;
@@ -43,12 +42,23 @@ nav div {
 }
 
 a:hover {
-    background-color: #6F1D1B;
+    background-color: #b4ffba;
 }
 p.inline {
     display: inline;
+    margin-top: 160px;
 }
 img {
     width: 50px;
     margin-top: 170px;
 }
+.mydiv {
+.mydiv p
+    margin-top: 160px;
+}
+<form>
+ <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+ </div>
+</form>
