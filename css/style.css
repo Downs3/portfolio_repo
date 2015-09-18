@@ -50,15 +50,7 @@ p.inline {
 }
 img {
     width: 50px;
-    margin-top: 170px;
+    margin-top: 15px;
 }
-.mydiv {
-.mydiv p
-    margin-top: 160px;
-}
-<form>
- <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
- </div>
-</form>
+
+
