@@ -1,0 +1,6 @@
+h1 {
+    display: inline;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #9ffff0;
+}
